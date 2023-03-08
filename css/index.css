@@ -1450,3 +1450,11 @@ body {
     font-size: 10px;
   }
 }
+
+.project_url {
+  color: #258ddb;
+  text-decoration: none;
+}
+.project_url:hover {
+  text-decoration: underline;
+}
