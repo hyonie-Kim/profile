@@ -169,7 +169,8 @@ body {
 /*s1 profile*/
 .pr_container {
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 20px;
+  /* padding-top: 60px; */
 }
 .pr_container .pr_profile {
   width: 28%;
@@ -212,7 +213,8 @@ body {
   position: relative; /*padding-top: 20px;*/
 }
 .right_box .pr_box {
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
+  margin-bottom: 10px;
 }
 .right_box .pr_box:after {
   content: "";
@@ -222,7 +224,7 @@ body {
 .right_box .pr_box .pr_title {
   float: left;
   display: inline-block;
-  width: 20%;
+  width: 25%;
   position: relative;
   left: 0;
   top: 0;
@@ -234,7 +236,7 @@ body {
 .right_box .pr_box .pr_date {
   float: left;
   display: inline-block;
-  width: 25%;
+  width: 20%;
 }
 .right_box .pr_box .pr_date div {
   padding-bottom: 15px;
@@ -245,6 +247,7 @@ body {
 .right_box .pr_box .pr_txt {
   width: 55%;
   display: inline-block;
+  padding-left: 15px;
 }
 .right_box .pr_box .pr_txt div {
   padding-bottom: 15px;
@@ -309,7 +312,11 @@ body {
   width: 20%;
   vertical-align: bottom;
 }
+.contact_point:hover {
+  color: #4eafce;
 
+  /* font-weight: 600; */
+}
 /*s2*/
 .skill_wrapper {
   display: grid;
@@ -387,7 +394,8 @@ body {
   line-height: 1.4;
 }
 .skill_item .sk_txt_box .sk_txt li img {
-  padding-right: 7px;
+  padding: 0 55px;
+  /* padding-right: 25px; */
   /* width: 100px; */
 }
 
@@ -892,7 +900,7 @@ body {
   }
   .skill_item:nth-child(3) {
     border-top: 0;
-    border-left: 2px solid #ccc;
+    /* border-left: 2px solid #ccc; */
   }
   .skill_item:nth-child(4) {
     border-top: 0;
@@ -923,7 +931,8 @@ body {
   }
   .skill_item .sk_txt_box .sk_txt li img {
     padding-right: 7px;
-    width: 23px;
+    /* width: 23px; */
+    width: 90%;
   }
 
   /*s3*/
